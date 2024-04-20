@@ -7,13 +7,24 @@
     <link rel="stylesheet" href="./style.css">
     <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
     <title>Coding Assesment L2 boilerplate</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <!-- Your code goes here -->
     <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+        <h1 class="Heading">SELECT YOUR CHOICE</h1>
+
+        <div id="tabs">
+            <button class="men" onclick="displayProducts('Men')">Men</button>
+            <button class="women" onclick="displayProducts('Women')">Women</button>
+            <button class="kids" onclick="displayProducts('Kids')">Kids</button>
+        </div>
+
+        <div id="product-container">
+            
+        </div>
     </div>
     <!-- Happy coding 😊 -->
     <script src="./script.js"></script>
